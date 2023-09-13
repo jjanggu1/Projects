@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+a {
+    text-decoration: none;
+    color: black;
+  }
+  .gnb {
+    z-index: 9999;
+    position: relative;
+  }
+  .gnb_bar {
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    background-color: #fafafa;
+  }
+  .gnb_bar_logo {
+    position: absolute;
+    margin: 0 44%;
+  }
+  .gnb_bar_logo a {
+    padding: 2vh;
+  }
+  
+  .gnb_bar_logo > h2 > a > img {
+    width: 20vh;
+  }
+  .gnb_bar_user {
+    display: flex;
+    margin-right: 10%;
+    margin-top: 15px;
+    max-height: 100%;
+  }
+  .gnb_bar_user a {
+    position: relative;
+    width: 100%;
+    padding: 20% 25px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .gnb_bar_user a:hover {
+    background-color: rgba(56, 130, 101, 0.2);
+  }
+
+  .gnb_bar_user_login{
+    width: 5%;
+    max-width: 50px;
+    min-width: 50px;
+    margin-right: 10%;
+    position: relative;
+    display: block;
+  }
+
+  .gnb_bar_user_login > a{
+    width: 1000px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+  }
+  .gnb_bar_user_login > a:hover{
+    background-color: rgba(56, 130, 101, 0.2);
+  }
+
+  .adminbtn {
+    position: absolute;
+    left: -100px;
+    top: -3px;
+    line-height: 1.7;
+    border: 2px solid #388265;
+    border-radius: 4px;
+    background-color: white;
+    padding: 2px 10px;
+    font-weight: bold;
+  }
+  .adminbtn:hover {
+    background-color: #388265;
+    color: white;
+  }
+
+  
+  .local_img, .naver_img {
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 100%;
+    border: 0.5px solid #424242;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center top;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+  }
+  .local_img:hover, .naver_img:hover {
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 100%;
+    border: 0.5px solid #424242;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center top;
+    box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+  }
+  
+  .kakao_img {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 100%;
+    background-position: center top;
+    border: 0.5px solid #424242;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+  }
+  .kakao_img:hover {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 100%;
+    background-position: center top;
+    border: 0.5px solid #424242;
+    box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+  }
+
+  
+  .gnbmypage{
+    position: absolute;
+    width: 200px;
+    background-color: #fff;
+    top: 50px;
+    left: -75px;
+    margin-top: 6px;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 10px;
+  }
+
+  .gnbmypage button {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background: none;
+    padding: 5% 20%;
+  }
+  .gnbmypage button:hover {
+    background-color: #A5C2B6;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 5% 20%;
+  }
+  .gnbmypage button:focus {
+    background-color: #388265;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5% 20%;
+  }
+  .gnbmypage_btns:first-child{
+    border-bottom: 1px solid #ccc;
+  }
+  .gnbmypage_btns:last-child{
+    border-top: 2px solid #ccc;
+  }
+
+
+  .myPage .gnb-button {
+    position: relative;
+    text-align: left;
+    border: 1px solid #000;
+  }

@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@media screen and (max-width: 1920px) {
+  body {
+    background-color: rgba(250, 250, 250, 1);
+    font-family: 'Noto Sans KR', sans-serif;
+    /* line-height: 1.7; */
+
+}
+
+
+
+
+.mypage_profile_set {
+  position: relative;
+  display: inline-block;
+  top: 20vh;
+  left: 10vw;
+  width: 50vw;
+  height: 30%;
+  /* border: solid 1px #000; */
+}
+.mypage_title {
+  position: relative;
+  text-align: left;
+  color: #000;
+  font-size: 3vh;
+  width: 30vw;
+  height: 5vh;
+}
+
+.myprofile {
+  /* border: solid 1px #000; */
+  align-content: start;
+  position: relative;
+  top: 5vh;
+}
+
+.profileimg {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  top: 0;
+  /* border: solid 1px #000; */
+  margin: 0;
+}
+
+.profile {
+  position: relative;
+  text-align: left;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: #000 solid 0.5px;
+}
+
+.kakao_profile_img, .naver_profile_img{
+  position: relative;
+  text-align: left;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: #000 solid 0.5px;
+  background-size: cover;
+}
+
+.setting_icon {
+  position: absolute;
+  text-align: left;
+  width: 35px;
+  right: 0;
+  bottom: 0;
+}
+
+.nickname_email {
+  /* border: solid 1px #000; */
+  position: absolute;
+  width: 30vw;
+  height: 80px;
+  left: 10vw;
+  top: 0;
+  text-align: left;
+  justify-content: start;
+}
+
+.nickname {
+  position: relative;
+  font-size: 1.3em;
+  color: #000;
+  margin-top: 10px;
+}
+
+.email {
+  position: relative;
+  font-size: 1em;
+  margin-top: 10px;
+  color: #aaa;
+}
+
+.tabs {
+  position: relative;
+  max-width: 80vw;
+  top: 30vh;
+  left: 10vw;
+}
+
+.tabs__header {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  /* gap: 5px; */
+}
+
+.tabs__item {
+  flex: 1;
+  /* background-color: #eee; */
+  padding: 25px 0;
+  border-radius: 5px 5px 0 0;
+  transition: 0.4s all ease-out;
+  cursor: pointer;
+  user-select: none;
+  border: solid 1px #eee;
+}
+
+.tabs__item.selected {
+  background-color: #388265;
+  color: #fff;
+}
+
+/* tab css ------------------------------------------------------------- */
+.course {
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+  
+}
+.tabs__content {
+  /* background-color: #eee; */
+  min-height: 400px;
+  position: relative;
+  align-items: start;
+  border-radius: 0 0 5px 5px;
+  display: inline;
+}
+
+
+.board-list {
+  position: relative;
+  /* border: solid 1px #000; */
+  height: 250px;
+  width: 100%;
+  background-color: #eee;
+  margin-top: 3.5vh;
+}
+
+.board_content {
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  padding: 60px 0 45px 45px;
+  /* border: solid 1px #000; */
+  /* background-color: #9696ff; */
+  
+}
+
+
+
+.hashtag {
+  position: relative;
+  display: inline-block;
+  color: #bebebe;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.brd_created_at {
+  position: absolute;
+  display: inline-block;
+  right: 2.5%;
+  font-size: 1.1em;
+  font-weight: 300;
+
+}
+.brd_title{
+  position: relative;
+  display: block;
+  /* width: 70px; */
+  /* border: solid 1px #000; */
+  font-size: 1.8em;
+  font-weight: 400;
+  margin-bottom: 15px;
+  
+}
+
+.like > img,
+.viewer > img {
+  width: 18px;
+  margin-right: 5px;
+}
+
+.like, .viewer{
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #808080;
+}
+
+.brd_open {
+  position: absolute;
+  right: 2.5%;
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+
+
+.mypage_img {
+  position: absolute;
+  right: 0;
+  width: 40%;
+  max-width: 450px;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin-left: 10%;
+}
+
+.mycourse_checkbox{
+  position: relative;
+  display: flex;
+  top: 50px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  z-index: 99;
+  margin-top: -30px;
+}
+
+/* tab comment css ------------------------------------------------------------- */
+
+
+.commentlist {
+  position: relative;
+  width: 100%;
+  margin-top: 0vh;
+}
+
+.comment-list{
+  position: relative;
+  height: 150px;
+  width: 100%;
+  margin-top: 4vh;
+  background-color: #eee;
+}
+.comment_content {
+  width: 100%;
+  position: absolute;
+  padding: 44px 0 0 46px;  
+}
+
+.com_brd_title{
+  position: relative;
+  display: inline-block;
+  color: #bebebe;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.com_created_at{
+  position: absolute;
+  display: inline-block;
+  font-weight: 300;
+  right: 5%;
+}
+
+.com_list_icon{
+  position: relative;
+  display: block;
+  left: 10px;
+  width: 15px;
+}
+
+.com_comment{
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  left: 35px;
+  top: -25px;
+  font-size: 1.6em;
+  font-weight: 400;
+}
+
+.comment_checkbox{
+  position: relative;
+  display: flex;
+  top: 50px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  z-index: 99;
+  margin-top: -30px;
+}
+
+.nodata{
+  position: relative;
+  display: block;
+  width: 50%;
+  height: 10%;
+  top: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.more_btn {
+  text-align: center;
+}
+
+.more_btn button {
+  padding: 1% 5%;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #ccc;
+  background-color: white;
+  margin-top: 50px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 200px;
+}
+
+
+
+
+
+
+/* edit css ------------------------------------------------------------- */
+
+
+.edit {
+  position: absolute;
+  display: block;
+  right: 0;
+  top: -50px;
+  width: 100px;
+  background: #fafafa;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-position: under;
+
+  /* padding: 5px 20px; */
+}
+
+.delete{
+  position: absolute;
+  right: 80px;
+  top: -20px;
+  width: 100px;
+  background: #fafafa;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.cancel{
+  position: absolute;
+  right: 0;
+  top: -20px;
+  width: 100px;
+  background: #fafafa;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.comment_edit {
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 1.5vh;
+  width: 100px;
+  border: none;
+  background: none;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-position: under;
+  z-index: 1;
+  /* padding: 5px 20px; */
+}
+
+.comment_delete{
+  position: absolute;
+  right: 80px;
+  top: 1.5vh;
+  width: 100px;
+  background: #fafafa;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-position: under;
+  z-index: 1;
+}
+
+.comment_cancel{
+  position: absolute;
+  right: 0;
+  top: 1.5vh;
+  width: 100px;
+  background: #fafafa;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-position: under;
+  z-index: 1;
+}
+
+}
