@@ -49,8 +49,6 @@ B-eesKnees[Frontend 3, Backend 3]
 
 <br/>
 
-  🎞 시연영상 : 준비중...
-
 <br/>
 
 📃 WEAVE-WEGO Notion 👉 https://petalite-cheek-f6c.notion.site/WEAVE-WEGO-63e4d98cdb7543568a479245f12096b1?pvs=4
